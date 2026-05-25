@@ -10,10 +10,4 @@
     <ProjectReference Include="..\Booqr.Logic\Booqr.Logic.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Pages\Facilities\" />
-    <Folder Include="Pages\Dashboard\" />
-    <Folder Include="Pages\Reservations\" />
-  </ItemGroup>
-
 </Project>
