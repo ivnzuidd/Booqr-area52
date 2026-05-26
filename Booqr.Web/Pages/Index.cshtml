@@ -4,8 +4,63 @@
     ViewData["Title"] = "Home page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
-<h1>Dit stukje tekst is voor een github voorbeeld</h1>
+
+
+<section class="py-5">
+    <div class="container">
+        <div class="bg-white rounded shadow p-5 d-flex align-items-center justify-content-between gap-5">
+
+            <div class="w-50">
+                <div class="text-center">
+                    <h1 class="mb-3">Reserveren bij Vakantiepark Area52</h1>
+                    <p class="mb-4">
+                        Met Booqr kunnen gasten eenvoudig een reservering maken voor het restaurant of de snackbar van Vakantiepark Area52.
+                        Het systeem helpt om reserveringen overzichtelijk te bewaren en controleert of er nog voldoende capaciteit beschikbaar is.
+                        Zo wordt het reserveringsproces duidelijker voor zowel de gast als de horecamedewerkers.
+
+                        <br />
+                        <br />
+
+                        Maak snel een reservering voor het restaurant of de snackbar.
+                        Kies een datum, tijdstip en aantal personen, en laat daarna je gegevens achter.
+                    </p>
+                </div>
+
+                <div class="d-flex justify-content-center gap-3">
+                    <a href="/Reservations/Create" class="btn btn-warning btn-lg fw-bold">Reserveer</a>
+                </div>
+            </div>
+
+            <div class="w-50">
+                <div id="homepageCarousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner rounded">
+
+                        <div class="carousel-item active">
+                            <img src="~/image/Restaurant1.jpg" class="d-block w-100" alt="RestaurantFoto">
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="~/image/Snackbar1.jpg" class="d-block w-100" alt="Snackbar foto">
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="~/image/VacationPark1.jpg" class="d-block w-100" alt="Vakantiepark foto">
+                        </div>
+
+                    </div>
+
+                    <button class="carousel-control-prev" type="button" data-bs-target="#homepageCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Vorige</span>
+                    </button>
+
+                    <button class="carousel-control-next" type="button" data-bs-target="#homepageCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Volgende</span>
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
